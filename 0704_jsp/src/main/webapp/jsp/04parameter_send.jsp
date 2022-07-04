@@ -7,6 +7,7 @@
 		<title>04parameter_send.jsp</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<h1>jsp에서 jsp로 request.파라미터 보내기</h1>
 		<h2>jsp는 서블릿이므로, 서버의 역할이 가능. </h2>
 		<h2>jsp는 html을 자유롭게 사용하므로, 클라이언트의 코딩을 만들 수 있다. </h2>
@@ -24,5 +25,6 @@
 			2. 유저가 id/pwd 입력후 전송버튼을 누르면 
 			3. form의 action으로 전달된다. --%>
 		<%-- **서버는 결국 html을 클라이언트(유저)에게 전달한다. 서버에서 실행되는것이 아니다. --%>
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>

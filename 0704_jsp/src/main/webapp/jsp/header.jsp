@@ -16,11 +16,39 @@
 				<h3>coding exercise</h3>
 			</header><!-- end of header -->
 			<nav class="btn-group">
-				<a href="http://localhost:8080/0624_servlet/svl/13join.html">
-					<button class="btn btn-primary"> 회 원 가 입 </button>
+				<a href="./01start.jsp">
+					<button class="btn btn-primary">01start.jsp</button>
 				</a>
-				<a href="http://localhost:8080/0624_servlet/SelectEmp11">
-					<button class="btn btn-primary"> 사 원 조 회 </button>
+				<a href="./02var.jsp">
+					<button class="btn btn-primary">02var.jsp</button>
+				</a>
+				<a href="./03include_format.jsp">
+					<button class="btn btn-primary">03include_format.jsp</button>
+				</a>
+				<a href="./04parameter_send.jsp">
+					<button class="btn btn-primary">04parameter_send.jsp</button>
+				</a>
+				<a href="./05scriptlet1.jsp">
+					<button class="btn btn-primary">05scriptlet1.jsp</button>
+				</a>
+				<a href="./05scriptlet2.jsp">
+					<button class="btn btn-primary">05scriptlet2.jsp</button>
+				</a>
+				<a href="./05scriptlet3.jsp">
+					<button class="btn btn-primary">05scriptlet3.jsp</button>
+				</a>
+				<a href="./05scriptlet4.jsp">
+					<button class="btn btn-primary">05scriptlet4.jsp</button>
 				</a>
 			</nav><!-- end of nav -->
 			<main class="mt-3">
+
+			
+			
+			
+			
+			
+			
+			
+			
+			

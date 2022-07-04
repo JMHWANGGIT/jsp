@@ -7,6 +7,7 @@
 		<title>04parameter_take.jsp</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<h1>jsp에서는 request, response, out 변수가 이미 준비되어 있다.</h1>
 		<h2>HttpServletRequest request</h2>
 		<h2>HttpServletResponse response</h2>
@@ -36,5 +37,6 @@
 			}
 		%>
 		<%-- scriptlet : jsp 코드를 분할하여 html 코드와 섞어 사용하는 방법 --%>
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>

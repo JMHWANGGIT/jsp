@@ -7,6 +7,7 @@
 		<title>05scriptlet4.jsp</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<h1>scriptlet을 활용하여 구구단이 들어있는 table을 완성하시오</h1>
 		<table border="1">
 		<%
@@ -25,5 +26,6 @@
 			}//for-dan
 		%>
 		</table>
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>

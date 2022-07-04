@@ -7,6 +7,7 @@
 		<title>05scriptlet2.jsp</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<table border="1">
 		
 		<%
@@ -16,7 +17,7 @@
 		<%
 			}
 		%>
-		
+		<%@ include file="./footer.jsp" %>
 		</table>
 	</body>
 </html>

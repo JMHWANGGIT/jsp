@@ -7,6 +7,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<h1>memver variable</h1>
 		<h2>&lt! 로 선언된 변수는 멤버변수가 된다. </h2>
 		<h2>&lt% 로 선언된 변수는 지역변수가 된다. </h2>
@@ -15,6 +16,6 @@
 		<h2>멤버변수 출력 : <%= this.str1 %></h2>
 		<h2>지역변수 출력 : <%= str1 %></h2>
 		<h2>jsp의 출력태그 내부는 ; 을 생략한다. </h2>
-		
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>

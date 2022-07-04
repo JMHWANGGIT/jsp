@@ -7,6 +7,7 @@
 		<title>05scriptlet1.jsp</title>
 	</head>
 	<body>
+		<%@ include file="./header.jsp" %>
 		<h1>out.print 구구단 </h1>
 		<%
 			for(int dan = 2; dan <= 9; dan++){
@@ -37,5 +38,6 @@
 		<%
 			}//for - dan
 		%>
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>

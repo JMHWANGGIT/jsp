@@ -6,7 +6,8 @@
 		<meta charset="UTF-8">
 		<title>05scriptlet3.jsp</title>
 	</head>
-	<body>
+	<body>	
+		<%@ include file="./header.jsp" %>
 		<table border="1">
 		<%
 			for(int i = 1; i <= 10; i++){
@@ -35,5 +36,6 @@
 				
 			}//for -i
 		%>
+		<%@ include file="./footer.jsp" %>
 	</body>
 </html>
